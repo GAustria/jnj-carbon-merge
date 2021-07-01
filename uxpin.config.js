@@ -166,7 +166,9 @@ module.exports = {
           "src/DataTable/TableRow/TableRow.js",
         ]
       }
-    ]
+    ],
+    wrapper: 'src/Wrapper/UXPinWrapper.js',
+    webpackConfig: 'webpack.config.js',
   },
   name: "IBM Carbon"
 };
